@@ -17,8 +17,7 @@ export class CardComponent extends Component {
   //this is a toggle to show info on click and also hide it on click by toggling the state.
   toggleInfo = () => {
     this.setState({ showInfo: !this.state.showInfo })
-    console.log('state', this.state.showInfo)
-
+  
   }
 
   //Setting up my if statement based on booleans to show the info and change text on btn

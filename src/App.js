@@ -9,6 +9,7 @@ import UserScreen from './screens/UserScreen'
 
 // Here are my routes and I render NavBarComponent as I want it to stick everywhere.
 class App extends Component {
+  // Redirect to login when clicked on user
   Redirect = () => {
     return <Redirect to ='/login'/>
   }
