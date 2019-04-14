@@ -1,0 +1,32 @@
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.selected {
+  color: red;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+.navBar ul li {
+  width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 33px;
+    display: inline-block;
+    
+}
+
+.hidden {
+  display:none;
+}
